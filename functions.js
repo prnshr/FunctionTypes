@@ -11,3 +11,9 @@ function add(a,b){
 
 
 // 2... Function Expression
+
+let sub = function sub(a,b){
+    console.log(a-b);
+}
+
+sub(20,10);
